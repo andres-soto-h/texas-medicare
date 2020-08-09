@@ -504,6 +504,16 @@ Preloader Area CSS
 	background:#1a76d1;
 	opacity:0.8;
 }
+.overlay-mod:before{
+	position:absolute;
+	content:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:#f7f7f7;
+	opacity:0.5;
+}
 /* Bread Crumbs */
 .breadcrumbs {
 	background-image: url('../img/bread-bg.jpg');
